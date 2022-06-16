@@ -2,7 +2,7 @@ p{
     font-family: 'Red Hat Text', sans-serif;
 }
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Aleo', serif;
     font-size: 16px;
@@ -43,6 +43,10 @@ header{
     margin: 0 auto;
     background: rgba(242, 120, 92, 0.7);
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 .container{
     width: 1440px;
@@ -72,3 +76,56 @@ header{
     margin-right: 42px;
 }
 /* -----header-------- */
+main{
+    margin: 0 auto;
+}
+.preview{
+    background-image: url(../images/firstBack.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.preview__inner{
+    padding: 122px 428px 221px 120px;
+}
+.preview__title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.preview__desc{
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 46px;
+}
+.form{
+    position: relative;
+}
+.form input{
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    width: 892px;
+    height: 95px;
+    padding-left: 41px;
+    position: absolute;
+}
+.form input::placeholder{
+    color: #F2785C;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+}
+.preview-btn{
+    position: absolute;
+    padding: 10px 32px;
+    font-weight: 500;
+    font-size: 24px;
+    right: -23px;
+    top: 24px;
+}
