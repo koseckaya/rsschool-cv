@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Red+Hat+Text:wght@400;500&display=swap"
-            rel="stylesheet"
-        />
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Text:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/style.css" />
         <title>Travel</title>
     </head>
@@ -19,11 +17,15 @@
                 <nav class="nav">
                     <div class="nav__logo"></div>
                     <ul class="menu">
-                        <li class="menu__item"><a href="#preview">How It Works</a></li>
+                        <li class="menu__item">
+                            <a href="#preview">How It Works</a>
+                        </li>
                         <li class="menu__item">
                             <a href="#steps">Plan Your Trip</a>
                         </li>
-                        <li class="menu__item"><a href="destinations">Destinations</a></li>
+                        <li class="menu__item">
+                            <a href="#destinations">Destinations</a>
+                        </li>
                         <li class="menu__item">
                             <a href="#stories">Travel Stories</a>
                         </li>
@@ -62,37 +64,214 @@
                     <div class="steps__block">
                         <div class="steps__item">
                             <div class="steps__img">
-                                <img src="./images/step1.svg" alt="step1">
+                                <img src="./images/step1.svg" alt="step1" />
                             </div>
-                            <div class="steps__text">Tell us what you want to do</div>
+                            <div class="steps__text">
+                                Tell us what you want to do
+                            </div>
                         </div>
                         <div class="steps__item">
                             <div class="steps__img">
-                                <img src="./images/step2.svg" alt="step2">
+                                <img src="./images/step2.svg" alt="step2" />
                             </div>
-                            <div class="steps__text">Share us preferable dates </div>
+                            <div class="steps__text">
+                                Share us preferable dates
+                            </div>
                         </div>
                         <div class="steps__item">
                             <div class="steps__img">
-                                <img src="./images/step3.svg" alt="step3">
+                                <img src="./images/step3.svg" alt="step3" />
                             </div>
-                            <div class="steps__text">We will give you recommendations</div>
+                            <div class="steps__text">
+                                We will give you recommendations
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="destinations" id="destinations">
-                <div class="container">
+                <div class="destinations-container">
                     <h2 class="title">POPULAR DESTINATIONS</h2>
+                    <div class="slider">
+                        <div class="slide slide1">
+                            <img
+                                class="slide-pic"
+                                src="./images/slide1.jpg"
+                                alt="slide"
+                            />
+
+                        </div>
+                        <div class="slide slide2">
+                            <img
+                                class="slide-pic"
+                                src="./images/slide2.jpg"
+                                alt="slide"
+                            />
+                            <div class="slide-city">Japan</div>
+                        </div>
+                        <div class="slide slide3">
+                            <img
+                                class="slide-pic"
+                                src="./images/slide3.jpg"
+                                alt="slide"
+                            />
+                            <div class="slide-city">USA</div>
+                        </div>
+                    </div>
+                    <div class="dots">
+                        <span>•</span>
+                        <span>•</span>
+                        <span>•</span>
+                    </div>
+                    <button class="btn destinations-btn">
+                        <span class="destinations-btn__text">Find More</span>
+                        <span class="destinations-btn__arrow"></span>
+                    </button>
                 </div>
             </section>
             <section class="stories" id="stories">
-                <div class="container">
-                    <h2 class="title">TRAVEL STORIES</h2>
+                 <h2 class="title stories-title">TRAVEL STORIES</h2>
+                <div class="stories__inner">
+                    <div class="stories__inner_bg">
+                        <div class="container story__container">
+                            <div class="story__block">
+                                <div class="story__item">
+                                    <div class="story__img">
+                                        <img
+                                            src="./images/story1.jpg"
+                                            alt="story1"/>
+                                    </div>
+                                    <div class="story__title">
+                                        10 Photos of Attractive Thailand
+                                    </div>
+                                    <div class="story__text">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip
+                                        ex ea commodo consequat. Duis aute irure
+                                        dolor in reprehenderit in voluptate velit
+                                        esse cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt
+                                        mollit anim id est laborum.Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit
+                                         <a class="story__link" href="#">Read More</a>
+                                    </div>
+                                   
+                                </div>
+                                <div class="story__item">
+                                    <div class="story__img">
+                                        <img
+                                            src="./images/story2.jpg"
+                                            alt="story1"
+                                        />
+                                    </div>
+                                    <div class="story__title">
+                                        Canyonlands National Park, Utah
+                                    </div>
+                                    <div class="story__text">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip
+                                        ex ea commodo consequat. Duis aute irure
+                                        dolor in reprehenderit in voluptate velit
+                                        esse cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt
+                                        mollit anim id est laborum.Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit
+                                         <a class="story__link" href="#">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="story__item">
+                                    <div class="story__img">
+                                        <img
+                                            src="./images/story3.jpg"
+                                            alt="story1"
+                                        />
+                                    </div>
+                                    <div class="story__title">
+                                        I left my heart in the Mountains!
+                                    </div>
+                                    <div class="story__text">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip
+                                        ex ea commodo consequat. Duis aute irure
+                                        dolor in reprehenderit in voluptate velit
+                                        esse cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt
+                                        mollit anim id est laborum.Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit
+                                        <a class="story__link" href="#">Read More</a>
+                                    </div>
+                                  
+                                </div>
+                                <div class="story__item">
+                                    <div class="story__img">
+                                        <img
+                                            src="./images/story4.jpg"
+                                            alt="story1"
+                                        />
+                                    </div>
+                                    <div class="story__title">
+                                        The Longest journey in my life!
+                                    </div>
+                                    <div class="story__text">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip
+                                        ex ea commodo consequat. Duis aute irure
+                                        dolor in reprehenderit in voluptate velit
+                                        esse cillum dolore eu fugiat nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt
+                                        mollit anim id est laborum.Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit
+                                        <a class="story__link" href="#">Read More</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <button class="btn story-btn">
+                                <span class="story-btn__text">See More</span>
+                                <span class="story-btn__arrow"></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
 
-        <footer></footer>
+        <footer class="footer">
+            <div class="footer__container">
+                <ul class="author-links">
+                    <li class="author-links__rs"><a href="https://rs.school/js-stage0/" target="_blank"><img src="./images/rs-logo.svg" alt="school"></a></li>
+                    <li class="author-links__git"><a href="https://github.com/koseckaya?tab=repositories" target="_blank">
+                        <img src="./images/github.svg" alt="school"></a></li>
+                </ul>
+                <div class="copy">
+                    All Rights Reserved © Travel Portal
+                </div>
+                <div class="social">
+                    <ul>
+                        <li class="insta"><a href="#"><img src="./images/inst.svg" alt="insta"></a></li>
+                        <li><a href="#"><img src="./images/you.svg" alt="insta"></a></li>
+                        <li><a href="#"><img src="./images/twit.svg" alt="twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="index.js"></script>
     </body>
 </html>
